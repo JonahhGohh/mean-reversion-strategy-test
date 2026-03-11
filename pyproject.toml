@@ -9,6 +9,9 @@ dependencies = [
     "plotly>=5.18.0",
 ]
 
+[tool.almanak]
+gateway_version = "latest"
+
 [tool.almanak.run]
 interval = 60
 
