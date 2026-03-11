@@ -1,0 +1,17 @@
+[project]
+name = "micro_mean_revert"
+version = "0.1.0"
+description = "Sub-minute RSI mean reversion for micro-sized wallets on Arbitrum"
+requires-python = ">=3.12"
+dependencies = [
+    "almanak>=2.0.0",
+    "streamlit>=1.44.1",
+    "plotly>=5.18.0",
+]
+
+[tool.almanak.run]
+interval = 60
+
+[tool.almanak.dashboard]
+enabled = true
+port = 8501
