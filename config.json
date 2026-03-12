@@ -2,7 +2,7 @@
     "base_token": "WETH",
     "quote_token": "USDC",
     "rsi_period": 3,
-    "rsi_timeframe": "15s",
+    "rsi_timeframe": "1m",
     "rsi_oversold": 48,
     "rsi_overbought": 52,
     "trade_pct": 0.20,

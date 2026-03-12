@@ -47,7 +47,7 @@ class MicroMeanRevertStrategy(IntentStrategy):
 
         # RSI params — short period + sub-minute timeframe
         self.rsi_period = int(cfg("rsi_period", 3))
-        self.rsi_timeframe = cfg("rsi_timeframe", "15s")
+        self.rsi_timeframe = cfg("rsi_timeframe", "1m")
         self.rsi_oversold = Decimal(str(cfg("rsi_oversold", "48")))
         self.rsi_overbought = Decimal(str(cfg("rsi_overbought", "52")))
 
