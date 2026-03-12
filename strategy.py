@@ -46,10 +46,10 @@ class MicroMeanRevertStrategy(IntentStrategy):
         self.quote_token = cfg("quote_token", "USDC")
 
         # RSI params — short period + sub-minute timeframe
-        self.rsi_period = int(cfg("rsi_period", 7))
-        self.rsi_timeframe = cfg("rsi_timeframe", "30s")
-        self.rsi_oversold = Decimal(str(cfg("rsi_oversold", "30")))
-        self.rsi_overbought = Decimal(str(cfg("rsi_overbought", "70")))
+        self.rsi_period = int(cfg("rsi_period", 3))
+        self.rsi_timeframe = cfg("rsi_timeframe", "15s")
+        self.rsi_oversold = Decimal(str(cfg("rsi_oversold", "48")))
+        self.rsi_overbought = Decimal(str(cfg("rsi_overbought", "52")))
 
         # Position sizing: fraction of total portfolio per trade
         self.trade_pct = Decimal(str(cfg("trade_pct", "0.20")))
