@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Sub-minute RSI mean reversion for micro-sized wallets on Arbitrum"
 requires-python = ">=3.12"
 dependencies = [
-    "almanak==2.3.1rc4",
+    "almanak==2.3.1rc5",
     "streamlit>=1.44.1",
     "plotly>=5.18.0",
 ]
