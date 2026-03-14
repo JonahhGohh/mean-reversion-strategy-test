@@ -15,6 +15,3 @@ gateway_version = "latest"
 [tool.almanak.run]
 interval = 60
 
-[tool.almanak.dashboard]
-enabled = true
-port = 8501
